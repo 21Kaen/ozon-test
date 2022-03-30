@@ -1,11 +1,3 @@
-const elements = {
-  animateToggle: document.querySelector(".animate-toggle"),
-  hideToggle: document.querySelector(".hide-toggle"),
-  inputValue: document.querySelector(".input-value"),
-  circularProgressBar: document.querySelector(".circular-progress-bar"),
-  progressCircle: document.querySelector(".progress-circle"),
-};
-
 export class ProgressBar {
   constructor(elements, defaultValue) {
     this.state = {
