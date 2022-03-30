@@ -104,7 +104,6 @@ export class ProgressBar {
   clearLoop() {
     if (this.state.loop) {
       clearInterval(this.state.loop);
-      console.log("cleared");
       this.state.loop = null;
     }
   }

@@ -9,4 +9,3 @@ const elements = {
 };
 
 const progressBar = new ProgressBar(elements, 30);
-window.progressBar = progressBar;
