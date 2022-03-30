@@ -1,0 +1,5 @@
+.settings-element {
+  display: flex;
+  height: 30px;
+  align-items: center;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Progress bar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="main">
+    <div class="progress-block">
+      <h1 class="block-title text">Progress</h1>
+      <svg class="circular-progress-bar" width="140" height="140">
+        <circle class="background-circle" stroke="#e1e6ee" stroke-width="10"
+        cx="70" cy="70" r="60" fill="transparent"/>
+        <circle class="progress-circle" stroke="#2957f8" stroke-width="10"
+        cx="70" cy="70" r="60" fill="transparent"/>
+      </svg>
+      <div class="settings-container">
+        <div class="settings-element">
+          <input type="number" value="0" class="input-value text" id="progress-value">
+          <label class="label text" for="progress-value">Value</label>
+        </div>
+        <div class="settings-element">
+          <div class="toggle animate-toggle"></div>
+          <div class="text">Animate</div>
+        </div>
+        <div class="settings-element">
+          <div class="toggle hide-toggle"></div>
+          <div class="text">Hide</div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script type="module" src="./index.js"></script>
+</body>

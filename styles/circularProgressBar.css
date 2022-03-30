@@ -1,0 +1,4 @@
+.circular-progress-bar {
+  position: relative;
+  transition: opacity 0.2s;
+}

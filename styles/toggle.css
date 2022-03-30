@@ -1,0 +1,23 @@
+.toggle {
+  cursor: pointer;
+  position: relative;
+  width: 50px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #e1e6ee;
+  transition: all 0.2s ease-in-out;
+  margin-right: 20px;
+}
+
+.toggle::after {
+  content: "";
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: white;
+  top: 2px;
+  left: 2px;
+  visibility: visible;
+  transition: left 0.2s ease-in-out;
+}

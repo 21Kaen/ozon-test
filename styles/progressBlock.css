@@ -1,0 +1,23 @@
+.progress-block {
+  padding: 20px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@media screen and (orientation: portrait) {
+  .progress-block {
+    width: 320px;
+    height: 568px;
+    flex-direction: column;
+  }
+}
+@media screen and (orientation: landscape) {
+  .progress-block {
+    width: 568px;
+    height: 320px;
+    flex-direction: row;
+  }
+}
